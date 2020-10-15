@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>sisowbelfius</name>
+	<displayName><![CDATA[Sisow Belfius Pay Button]]></displayName>
+	<version><![CDATA[5.4.0]]></version>
+	<description><![CDATA[Verwerk Belfius Pay Button betalingen via Sisow.]]></description>
+	<author><![CDATA[Sisow]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Weet u het zeker dat u Sisow Belfius Pay Button wilt verwijderen?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

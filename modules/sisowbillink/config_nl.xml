@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>sisowbillink</name>
+	<displayName><![CDATA[Sisow Billink]]></displayName>
+	<version><![CDATA[5.4.0]]></version>
+	<description><![CDATA[Processing Billink transactions with Sisow.]]></description>
+	<author><![CDATA[Sisow]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to delete Sisow Billink?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

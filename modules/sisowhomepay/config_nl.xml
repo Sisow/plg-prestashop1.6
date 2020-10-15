@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>sisowhomepay</name>
+	<displayName><![CDATA[Sisow ING Home&#039;Pay]]></displayName>
+	<version><![CDATA[5.4.0]]></version>
+	<description><![CDATA[Verwerk ING Home&#039;Pay betalingen via Sisow.]]></description>
+	<author><![CDATA[Sisow]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Weet u het zeker dat u Sisow ING Home'Pay wilt verwijderen?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
