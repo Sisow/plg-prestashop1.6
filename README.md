@@ -3,8 +3,8 @@
 </p>
 
 # Buckaroo PrestaShop 1.6 Payments Plugin (former Sisow)
-> :warning: **PLEASE NOTE**: This plugin will not get new functionality updates.<br>We therefore highly recommend to use [Buckaroo's main PrestaShop 1.7 plugin](https://github.com/buckaroo-it/PrestaShop).<br>
-> **Be aware that this also requires an update to the PrestaShop 1.7 version**.
+> :warning: **PLEASE NOTE**: This plugin will not get new functionality updates.<br>We therefore highly recommend to use [Buckaroo's primary PrestaShop 1.7 plugin](https://github.com/buckaroo-it/PrestaShop).<br>
+> **Be aware that this also requires an update to PrestaShop 1.7**.
 
 ### Index
 - [About](#about)
@@ -19,7 +19,7 @@ PrestaShop started in 2005 as a student project. It was originally named phpOpen
 
 The Buckaroo PrestaShop Payments Plugin is convenient and works like a charm, it's easy to install and takes all the trouble out of your hands. It is a plugin with many different payment methods, all of which are SEPA proof.
 
-**Please note:** Buckaroo took over Sisow in 2021 and thereby all of their plugins. This PrestaShop plugin is the former Sisow version and it contains a ready-to-sell payment gateway for Buckaroo. However new functionalities will only be added in [Buckaroo's main PrestaShop 1.7 plugin](https://github.com/buckaroo-it/PrestaShop) and not in this specific plugin. Be aware that this also requires an update to the PrestaShop 1.7 version!
+**Please note:** Buckaroo took over Sisow in 2021 and thereby all of their plugins. This PrestaShop plugin is the former Sisow version and it contains a ready-to-sell payment gateway for Buckaroo. However new functionalities will only be added in [Buckaroo's primary PrestaShop 1.7 plugin](https://github.com/buckaroo-it/PrestaShop) and not in this specific plugin. Be aware that this also requires an update to the PrestaShop 1.7 version!
 
 For more information about the former Sisow plugin and the migration, please visit:
 https://www.buckaroo.nl/sisow
