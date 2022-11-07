@@ -9,7 +9,7 @@
 <h3>{l s='EPS payment' mod='sisoweps'}</h3>
 <form name="sisoweps_form" id="sisoweps_form" action="{$base_dir_ssl}modules/sisow/payment.php?payment={$paymentcode}&paymentname={$paymentname}" method="post">
 <p>
-	<img src="{$base_dir_ssl}modules/sisoweps/eps.gif" width="64px" alt="iDEAL" style="float:left; margin: 0px 10px 5px 0px;" />
+	<img src="{$base_dir_ssl}modules/sisoweps/eps.png" width="64px" alt="iDEAL" style="float:left; margin: 0px 10px 5px 0px;" />
 	{l s='You have chosen to pay with EPS.' mod='sisoweps'}
 	</br>
 	Bankleitzahl:

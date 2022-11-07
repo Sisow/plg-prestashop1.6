@@ -9,7 +9,7 @@
 <h3>Achteraf betalen</h3>
 <form name="sisowfocum_form" id="sisowfocum_form" action="{$base_dir_ssl}modules/sisow/payment.php?payment={$paymentcode}&paymentname={$paymentname}" method="post">
 <p>
-			<img src="{$base_dir_ssl}modules/sisowgiropay/focum.gif" width="125px"/>
+			<img src="{$base_dir_ssl}modules/sisowgiropay/focum.png" width="125px"/>
 			<br/>
 			<label class="required" for="sisowfocum_gender">{l s='Salutation' mod='sisowfocum'}</label>
 			<div class="input-box">

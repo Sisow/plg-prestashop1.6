@@ -8,7 +8,7 @@
 	<div class="col-xs-12 col-md-6">
         <p class="payment_module sisow">
 			<a href="javascript:void(0)" onclick="$('#sisow_{$paymentcode}_form').submit();" id="sisow{$paymentcode}_process_payment" title="{$paymenttext}">
-				<img src="{$base_dir_ssl}modules/sisowgiropay/giropay.gif" width="64" alt="ideal" /> {$paymenttext}				
+				<img src="{$base_dir_ssl}modules/sisowgiropay/giropay.png" width="64" alt="Giropay" /> {$paymenttext}				
 			</a>
 		</p>
     </div>
@@ -23,7 +23,7 @@
 {else}
 <p class="payment_module">
 	<a href="javascript:void(0)" onclick="$('#sisow_{$paymentcode}_form').submit();" id="sisow{$paymentcode}_process_payment" title="{l s='Pay with PayPal' mod='paypal'}">
-		<img src="{$base_dir_ssl}modules/sisowgiropay/giropay.gif" width="64" alt="ideal" /> {$paymenttext}				
+		<img src="{$base_dir_ssl}modules/sisowgiropay/giropay.png" width="64" alt="Giropay" /> {$paymenttext}				
 	</a>
 </p>
 

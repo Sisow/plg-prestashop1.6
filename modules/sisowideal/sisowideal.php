@@ -326,7 +326,7 @@ class SisowIdeal extends PaymentModule
 		$this->_html .= '
 		<br />
 		<fieldset style="width:400px;">
-			<legend><img src="'._MODULE_DIR_.$this->name.'/logo.gif" alt="" /> Sisow iDEAL</legend>
+			<legend><img src="'._MODULE_DIR_.$this->name.'/logo.png" alt="" /> Sisow iDEAL</legend>
 			<p><b>'.$this->l('Transaction ID:').'</b> '.$sisow_order['trxid'].'</p>
 			<p><b>'.$this->l('Consumer name:').'</b> '.$sisow_order['consumername'].'</p>
 			<p><b>'.$this->l('Consumer account:').'</b> '.$sisow_order['consumeraccount'].'</p>
