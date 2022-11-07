@@ -80,6 +80,14 @@ class Sisow
 
 	public function send($method, array $keyvalue = NULL, $return = 1) {
 		$url = "https://www.sisow.nl/Sisow/iDeal/RestHandler.ashx/" . $method;
+		
+		//Software Headers
+		$keyvalue['PlatformName'] = 'Prestashop';
+		$keyvalue['PlatformVersion'] = _PS_VERSION_;
+		$keyvalue['ModuleSupplier'] = 'Buckaroo B.V.';
+		$keyvalue['ModuleName'] = 'Buckaroo (former Sisow) Prestashop';
+		$keyvalue['ModuleVersion'] = '5.4.3';
+
 		$options = array(
 			CURLOPT_POST => 1,
 			CURLOPT_HEADER => 0,
