@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
 	<name>sisowidealqr</name>
-	<displayName><![CDATA[Sisow iDEAL QR]]></displayName>
+	<displayName><![CDATA[iDEAL QR]]></displayName>
 	<version><![CDATA[5.4.0]]></version>
 	<description><![CDATA[Processing iDEAL QR transactions with Sisow.]]></description>
-	<author><![CDATA[Sisow]]></author>
+	<author><![CDATA[Buckaroo B.V.]]></author>
 	<tab><![CDATA[payments_gateways]]></tab>
-	<confirmUninstall><![CDATA[Are you sure you want to delete Sisow iDEAL QR?]]></confirmUninstall>
+	<confirmUninstall><![CDATA[Are you sure you want to delete iDEAL QR?]]></confirmUninstall>
 	<is_configurable>1</is_configurable>
 	<need_instance>1</need_instance>
 	<limited_countries></limited_countries>

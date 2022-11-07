@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
 	<name>sisowgiropay</name>
-	<displayName><![CDATA[Sisow Giropay]]></displayName>
+	<displayName><![CDATA[Giropay]]></displayName>
 	<version><![CDATA[5.4.0]]></version>
 	<description><![CDATA[Verwerk Giropay transacties via Sisow]]></description>
-	<author><![CDATA[Sisow]]></author>
+	<author><![CDATA[Buckaroo B.V.]]></author>
 	<tab><![CDATA[payments_gateways]]></tab>
-	<confirmUninstall><![CDATA[Weet u zeker dat u Sisow Giropay wilt verwijderen?]]></confirmUninstall>
+	<confirmUninstall><![CDATA[Weet u zeker dat u Giropay wilt verwijderen?]]></confirmUninstall>
 	<is_configurable>1</is_configurable>
 	<need_instance>1</need_instance>
 	<limited_countries></limited_countries>

@@ -11,7 +11,7 @@ class SisowVisa extends PaymentModule
 		$this->name = 'sisowvisa';
 		$this->tab = 'payments_gateways';
 		$this->version = '4.7.1';
-		$this->author = 'Sisow';
+		$this->author = 'Buckaroo B.V.';
 		
 		$this->bootstrap = true;
 
@@ -20,9 +20,9 @@ class SisowVisa extends PaymentModule
 
 		parent::__construct();
 
-		$this->displayName = 'Sisow ' . $this->paymentname;
-		$this->description = sprintf($this->l('Processing %s transactions with Sisow.'), $this->paymentname);
-		$this->confirmUninstall = sprintf($this->l('Are you sure you want to delete Sisow %s?'), $this->paymentname);
+		$this->displayName = $this->paymentname;
+		$this->description = sprintf($this->l('Processing %s transactions with Buckaroo.'), $this->paymentname);
+		$this->confirmUninstall = sprintf($this->l('Are you sure you want to delete %s?'), $this->paymentname);
 
 		$this->page = basename(__FILE__, '.php');
 
@@ -114,27 +114,27 @@ class SisowVisa extends PaymentModule
 			'input' => array (
 				array (
 					'type' => 'text',
-					'label' => $this->l('Merchant ID'),
+					'label' => $this->l('Website Key'),
 					'name' => 'SISOW'.strtoupper($this->paymentcode).'_MERCHANTID',
 					'size' => 20,
 					'required' => true,
-					'hint' => $this->l('The Sisow Merchant ID, you can find this in your Sisow profile on www.sisow.nl')
+					'hint' => $this->l('The website key can be found in the Buckaroo Plaza under → My Buckaroo → Websites. Using the filter button at the top right, you can then switch between multiple websites (if multiple websites are linked within the same Buckaroo account).')
 				),
 				array (
 					'type' => 'text',
-					'label' => $this->l('Merchant Key'),
+					'label' => $this->l('Secret Key'),
 					'name' => 'SISOW'.strtoupper($this->paymentcode).'_MERCHANTKEY',
 					'size' => 64,
 					'required' => true,
-					'hint' => $this->l('The Sisow Merchant Key, you can find this in your Sisow profile on www.sisow.nl')
+					'hint' => $this->l('Can be set in the Buckaroo Plaza at → Configuration → Security → Secret Key.')
 				),
 				array (
 					'type' => 'text',
 					'label' => $this->l('Shop ID'),
 					'name' => 'SISOW'.strtoupper($this->paymentcode).'_SHOPID',
 					'size' => 20,
-					'required' => true,
-					'hint' => $this->l('The Sisow Shop ID, you can find this in your Sisow profile on www.sisow.nl')
+					'required' => false,
+					'hint' => $this->l('Field is no longer mandatory ')
 				),
 				array (
 					'type' => 'radio',

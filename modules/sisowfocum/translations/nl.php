@@ -4,7 +4,7 @@ global $_MODULE;
 $_MODULE = array();
 $_MODULE['<{sisowfocum}prestashop>sisowfocum_c34aed5bc216ee371aaecea3dbd092fa'] = 'Pay after Receipt ';
 $_MODULE['<{sisowfocum}prestashop>sisowfocum_540179753f877b6aa0b73d9ac53a63bc'] = 'Verwerk betalingen met %s via Sisow';
-$_MODULE['<{sisowfocum}prestashop>sisowfocum_bde518d1d493e79b64b5c210bb520bdd'] = 'Weet u zeker dat u Sisow %s wilt verwijderen?';
+$_MODULE['<{sisowfocum}prestashop>sisowfocum_bde518d1d493e79b64b5c210bb520bdd'] = 'Weet u zeker dat u %s wilt verwijderen?';
 $_MODULE['<{sisowfocum}prestashop>sisowfocum_b30bc23bdd75f39289c7c0b88d3e7709'] = 'Verzendkosten';
 $_MODULE['<{sisowfocum}prestashop>sisowfocum_b0d53521d138e6b3a9ef802f70faf845'] = 'Kosten inpakken';
 $_MODULE['<{sisowfocum}prestashop>sisowfocum_6d864448e33d5c05ec45892c2abd1aea'] = 'Correctieregel';

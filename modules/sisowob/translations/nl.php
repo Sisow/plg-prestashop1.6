@@ -2,20 +2,20 @@
 
 global $_MODULE;
 $_MODULE = array();
-$_MODULE['<{sisowob}prestashop>sisowob_540179753f877b6aa0b73d9ac53a63bc'] = 'Verwerk %s betalingen via Sisow.';
-$_MODULE['<{sisowob}prestashop>sisowob_bde518d1d493e79b64b5c210bb520bdd'] = 'Weet u het zeker dat u Sisow %s wilt verwijderen?';
+$_MODULE['<{sisowob}prestashop>sisowob_540179753f877b6aa0b73d9ac53a63bc'] = 'Verwerk %s betalingen via Buckaroo.';
+$_MODULE['<{sisowob}prestashop>sisowob_bde518d1d493e79b64b5c210bb520bdd'] = 'Weet u het zeker dat u %s wilt verwijderen?';
 $_MODULE['<{sisowob}prestashop>sisowob_b30bc23bdd75f39289c7c0b88d3e7709'] = 'Verzendkosten';
 $_MODULE['<{sisowob}prestashop>sisowob_b0d53521d138e6b3a9ef802f70faf845'] = 'Kosten inpakken';
 $_MODULE['<{sisowob}prestashop>sisowob_6d864448e33d5c05ec45892c2abd1aea'] = 'Correctieregel';
 $_MODULE['<{sisowob}prestashop>sisowob_323fd80c3edfa274e2140324072b7ac8'] = 'Helaas is er iets mis gegaan met uw bestelling, klik hier om terug te keren';
 $_MODULE['<{sisowob}prestashop>sisowob_c888438d14855d7d96a2724ee9c306bd'] = 'Instellingen opgeslagen';
 $_MODULE['<{sisowob}prestashop>sisowob_52f4393e1b52ba63e27310ca92ba098c'] = 'Algemene instellingen';
-$_MODULE['<{sisowob}prestashop>sisowob_229a7ec501323b94db7ff3157a7623c9'] = 'Merchant ID';
-$_MODULE['<{sisowob}prestashop>sisowob_4287159b6e0f3048d968517db0c97a05'] = 'Sisow Merchant ID zoals te vinden in uw Sisow profiel';
-$_MODULE['<{sisowob}prestashop>sisowob_795acb9a0c89791314d3032fe65eeb92'] = 'Merchant Key';
-$_MODULE['<{sisowob}prestashop>sisowob_bf30aa2c017359d0dd47890e8af04f96'] = 'Sisow Merchant Key zoals te vinden in uw Sisow profiel';
+$_MODULE['<{sisowob}prestashop>sisowob_229a7ec501323b94db7ff3157a7623c9'] = 'Website Key';
+$_MODULE['<{sisowob}prestashop>sisowob_4287159b6e0f3048d968517db0c97a05'] = 'De website key is te vinden in de Buckaroo Plaza onder → Mijn Buckaroo → Websites. Met behulp van de filterknop rechtsboven kun je vervolgens switchen tussen meerdere websites (als er meerdere websites zijn gekoppeld binnen hetzelfde Buckaroo-account).';
+$_MODULE['<{sisowob}prestashop>sisowob_795acb9a0c89791314d3032fe65eeb92'] = 'Secret Key';
+$_MODULE['<{sisowob}prestashop>sisowob_bf30aa2c017359d0dd47890e8af04f96'] = 'In te stellen in de Buckaroo Plaza op → Configuratie → Beveiliging → Secret Key.';
 $_MODULE['<{sisowob}prestashop>sisowob_ccf107a5d46c6501c9f2f4345400dc2e'] = 'Shop ID';
-$_MODULE['<{sisowob}prestashop>sisowob_75f2ef5b7800ff69971c7c32ffc0a272'] = 'Sisow Shop ID zoals te vinden in uw Sisow profiel';
+$_MODULE['<{sisowob}prestashop>sisowob_75f2ef5b7800ff69971c7c32ffc0a272'] = 'Veld ons niet langer verplicht.';
 $_MODULE['<{sisowob}prestashop>sisowob_0b114111bcb58ae977318dfa97cc2d80'] = 'Test/Live modes';
 $_MODULE['<{sisowob}prestashop>sisowob_a849a06e943c4fa48e32586816a93852'] = 'Live';
 $_MODULE['<{sisowob}prestashop>sisowob_03a36f89aad8dd8286bc5fe6692cbbeb'] = 'Test';

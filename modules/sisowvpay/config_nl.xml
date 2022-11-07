@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
 	<name>sisowmaestro</name>
-	<displayName><![CDATA[Sisow Maestro]]></displayName>
+	<displayName><![CDATA[Maestro]]></displayName>
 	<version><![CDATA[5.4.0]]></version>
-	<description><![CDATA[Verwerk Maestro betalingen via Sisow.]]></description>
-	<author><![CDATA[Sisow]]></author>
+	<description><![CDATA[Verwerk Maestro betalingen via Buckaroo.]]></description>
+	<author><![CDATA[Buckaroo B.V.]]></author>
 	<tab><![CDATA[payments_gateways]]></tab>
-	<confirmUninstall><![CDATA[Weet u het zeker dat u Sisow Maestro wilt verwijderen?]]></confirmUninstall>
+	<confirmUninstall><![CDATA[Weet u het zeker dat u Maestro wilt verwijderen?]]></confirmUninstall>
 	<is_configurable>1</is_configurable>
 	<need_instance>1</need_instance>
 	<limited_countries></limited_countries>

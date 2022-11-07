@@ -132,7 +132,7 @@ class Sisow
 			// kan ook via de gateway aangevraagd worden, maar is altijd hetzelfde
 			if ($select === true) {
 				$output = "<select id=\"sisowbank\" name=\"issuerid\">";
-				$output .= "<option value=\"99\">Sisow Bank (test)</option>";
+				$output .= "<option value=\"99\">Buckaroo Bank (test)</option>";
 				$output .= "</select>";
 			}
 			else {
@@ -169,11 +169,11 @@ class Sisow
 	public function TransactionRequest($keyvalue = NULL) {
 		$this->trxId = $this->issuerUrl = "";
 		if (!$this->merchantId) {
-			$this->errorMessage = 'No Merchant ID';
+			$this->errorMessage = 'No Website Key';
 			return -1;
 		}
 		if (!$this->merchantKey) {
-			$this->errorMessage = 'No Merchant Key';
+			$this->errorMessage = 'No Secret Key';
 			return -2;
 		}
 		if (!$this->purchaseId) {
