@@ -161,7 +161,7 @@ class Payment extends PaymentModule
 					$this->context->cookie->id_cart = $duplication['cart']->id;
 					$this->context->cookie->write();
 
-					$error = 'Sisow error: ' . $ex . ' ' . $sisow->errorCode;
+					$error = 'Error: ' . $ex . ' ' . $sisow->errorCode;
 					Tools::redirectLink(__PS_BASE_URI__.'order.php?step=3&'.$payment."error=".$error);			
 					exit;
 				}
@@ -175,7 +175,7 @@ class Payment extends PaymentModule
                 } else if($sisow->payment == 'billink') {
                     $error = $module->l('Betalen met Billink is niet mogelijk, betaal anders.');
                 } else
-					$error = 'Sisow error: ' . $ex . ' ' . $sisow->errorCode;
+					$error = 'Error: ' . $ex . ' ' . $sisow->errorCode;
 						
 				Tools::redirectLink(__PS_BASE_URI__.'order.php?step=3&'.$payment."error=".$error);			
 				exit;

@@ -7,7 +7,6 @@
 	<br/>
 	{$successline4}
 	<br/><br/>
-	<img src="https://www.sisow.nl/Sisow/images/mail/sisowklein.jpg" alt="Sisow OverBoeking" />
 {elseif $paymentcode == 'klarna' || $paymentcode == 'klarnaacc'}
 	<b>{$successline1|sprintf:$shop_name}<b>
 	<br/><br/>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
 	<name>sisoweb</name>
-	<displayName><![CDATA[Sisow Digitale Acceptgiro]]></displayName>
+	<displayName><![CDATA[Digitale Acceptgiro]]></displayName>
 	<version><![CDATA[5.4.0]]></version>
-	<description><![CDATA[Verwerk Digitale Acceptgiro transacties via Sisow.]]></description>
-	<author><![CDATA[Sisow]]></author>
+	<description><![CDATA[Verwerk Digitale Acceptgiro transacties via Buckaroo.]]></description>
+	<author><![CDATA[Buckaroo B.V.]]></author>
 	<tab><![CDATA[payments_gateways]]></tab>
-	<confirmUninstall><![CDATA[Weet u het zeker dat u Sisow Digitale Acceptgiro wilt verwijderen?]]></confirmUninstall>
+	<confirmUninstall><![CDATA[Weet u het zeker dat u Digitale Acceptgiro wilt verwijderen?]]></confirmUninstall>
 	<is_configurable>1</is_configurable>
 	<need_instance>1</need_instance>
 	<limited_countries></limited_countries>

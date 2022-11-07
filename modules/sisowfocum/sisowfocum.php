@@ -11,7 +11,7 @@ class SisowFocum extends PaymentModule
 		$this->paymentname = $this->l('Achteraf Betalen');
 		$this->tab = 'payments_gateways';
 		$this->version = '4.5.1';
-		$this->author = 'Sisow';
+		$this->author = 'Buckaroo B.V.';
 		$this->available_countries = array('NL');//array('NL','DE','DK','FI','NO','SE');
 
 		$this->currencies = true;
@@ -19,9 +19,9 @@ class SisowFocum extends PaymentModule
 
 		parent::__construct();
 		
-		$this->displayName = 'Sisow ' . $this->paymentname;
-		$this->description = sprintf($this->l('Processing %s transactions with Sisow.'), $this->paymentname);
-		$this->confirmUninstall = sprintf($this->l('Are you sure you want to delete Sisow %s?'), $this->paymentname);
+		$this->displayName = $this->paymentname;
+		$this->description = sprintf($this->l('Processing %s transactions with Buckaroo.'), $this->paymentname);
+		$this->confirmUninstall = sprintf($this->l('Are you sure you want to delete %s?'), $this->paymentname);
 
 		$this->page = basename(__FILE__, '.php');
 
@@ -90,17 +90,17 @@ class SisowFocum extends PaymentModule
 		return '
 		<form action="'.Tools::htmlentitiesUTF8($_SERVER['REQUEST_URI']).'" method="post">
 			<fieldset><legend><img src="../img/admin/contact.gif" /> '.$this->l('Settings').'</legend>
-				<label for="merchantid">Merchant ID</label>
+				<label for="merchantid">Website Key</label>
 				<div class="margin-form">
 					<input type="text" id="merchantid" size="20" name="SISOW'.strtoupper($this->paymentcode).'_MERCHANTID" value="'.Tools::getValue('SISOW'.strtoupper($this->paymentcode).'_MERCHANTID', Configuration::get('SISOW'.strtoupper($this->paymentcode).'_MERCHANTID')).'" />
 				</div>
 				<div class="clear">&nbsp;</div>
-				<label for="merchantkey">Merchant Key</label>
+				<label for="merchantkey">Secret Key</label>
 				<div class="margin-form">
 					<input type="text" id="merchantkey" size="20" name="SISOW'.strtoupper($this->paymentcode).'_MERCHANTKEY" value="'.Tools::getValue('SISOW'.strtoupper($this->paymentcode).'_MERCHANTKEY', Configuration::get('SISOW'.strtoupper($this->paymentcode).'_MERCHANTKEY')).'" />
 				</div>
 				<div class="clear">&nbsp;</div>
-				<label for="subid">Sisow SubId</label>
+				<label for="subid">SubId</label>
 				<div class="margin-form">
 					<input type="text" id="subid" size="20" name="SISOW'.strtoupper($this->paymentcode).'_SUBID" value="'.Tools::getValue('SISOW'.strtoupper($this->paymentcode).'_SUBID', Configuration::get('SISOW'.strtoupper($this->paymentcode).'_SUBID')).'" />
 				</div>
