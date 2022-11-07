@@ -33,7 +33,7 @@
 <h3>{l s='iDEAL payment' mod='sisowideal'}</h3>
 <form name="sisowideal_form" id="sisowideal_form" action="{$base_dir_ssl}modules/sisow/payment.php?payment={$paymentcode}&paymentname={$paymentname}" method="post">
 <p>
-	<img src="{$base_dir_ssl}modules/sisowideal/ideal.gif" alt="iDEAL" style="float:left; margin: 0px 10px 5px 0px;" />
+	<img src="{$base_dir_ssl}modules/sisowideal/ideal.png" alt="iDEAL" style="float:left; margin: 0px 10px 5px 0px;" />
 	{l s='You have chosen to pay with iDEAL.' mod='sisowideal'}
 	</br>
 	{l s='Choose your bank:' mod='sisowideal'}

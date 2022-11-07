@@ -9,7 +9,7 @@
 <h3>{l s='Giropay payment' mod='sisowgiropay'}</h3>
 <form name="sisowgiropay_form" id="sisowgiropay_form" action="{$base_dir_ssl}modules/sisow/payment.php?payment={$paymentcode}&paymentname={$paymentname}" method="post">
 <p>
-	<img src="{$base_dir_ssl}modules/sisowgiropay/giropay.gif" width="64px" alt="iDEAL" style="float:left; margin: 0px 10px 5px 0px;" />
+	<img src="{$base_dir_ssl}modules/sisowgiropay/giropay.png" width="64px" alt="Giropay" style="float:left; margin: 0px 10px 5px 0px;" />
 	{l s='You have chosen to pay with Giropay.' mod='sisowgiropay'}
 	</br>
 	Bankleitzahl:

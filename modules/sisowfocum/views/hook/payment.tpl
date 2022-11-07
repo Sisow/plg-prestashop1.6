@@ -9,7 +9,7 @@
 	<div class="col-xs-12 col-md-6">
         <p class="payment_module sisow">
 			<a href="javascript:void(0)" onclick="$('#sisow_{$paymentcode}_form').submit();" id="sisow{$paymentcode}_process_payment" title="{$paymenttext}">
-				<img src="https://www.achterafbetalen.nl/files/logo.png" width="64" alt="achterafbetalen" /> {$paymenttext}
+				<img src="{$modules_dir}/sisowfocum/logo.png" width="64" alt="achterafbetalen" /> {$paymenttext}
 			</a>
 		</p>
     </div>
@@ -24,7 +24,7 @@
 {else}
 <p class="payment_module">
 	<a href="javascript:void(0)" onclick="$('#sisow_{$paymentcode}_form').submit();" id="sisow{$paymentcode}_process_payment" title="{l s='Pay with Focum AchterafBetalen' mod='sisowfocum'}">
-		<img src="https://www.achterafbetalen.nl/files/logo.png" width="64" alt="achterafbetalen" /> {$paymenttext}
+		<img src="{$modules_dir}/sisowfocum/logo.png" width="64" alt="achterafbetalen" /> {$paymenttext}
 	</a>
 </p>
 
