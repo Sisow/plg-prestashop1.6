@@ -3,7 +3,7 @@
 </p>
 
 # Buckaroo PrestaShop 1.6 Payments Plugin (former Sisow)
-> :warning: **PLEASE NOTE**: This plugin will not get new functionality updates.<br>We therefore highly recommend to use [Buckaroo's primary PrestaShop 1.7 plugin](https://github.com/buckaroo-it/PrestaShop).<br>
+> :warning: **PLEASE NOTE**: This plugin will not get new functionality updates.<br>We therefore highly recommend to use [Buckaroo's PrestaShop plugin](https://github.com/buckaroo-it/PrestaShop).<br>
 > **Be aware that this also requires an update to PrestaShop 1.7**.
 
 ### Index
